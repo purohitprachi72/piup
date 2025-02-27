@@ -1,9 +1,8 @@
 ---
 ---
 
-# To-Do
+## To-Do
 
-<ul>
-    <li>Astro: 1. PF</li>
-    <li>Astro: 2. FM</li>
-</ul>
+### Astro
+1. PF
+2. FM
