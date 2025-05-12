@@ -4,6 +4,20 @@
   --text-white: #fff;
 }
 
+/* Make it stack on mobile */
+@media (max-width: 800px) {
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+
 /* reset */
 * {
   margin: 0;

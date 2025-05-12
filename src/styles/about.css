@@ -1,0 +1,46 @@
+.about-text h1 {
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+}
+
+/* .about-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+} */
+
+.about-me {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 65%;
+}
+
+.about-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid var(--border-grey);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Optional: stack on small screens */
+@media (max-width: 800px) {
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text {
+    max-width: 100%;
+    text-align: center;
+  }
+}

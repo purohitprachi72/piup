@@ -1,7 +1,101 @@
 ---
 import Base from '../layouts/Base.astro'
+import '../styles/project.css';
+title: 'Projects';
 ---
 
 <Base>
-    <h1>Projects</h1>
+    <h1>Projects</h1><br>
+    <!-- <h1>SitaRam!</h1> -->
+	<a href="/todo"><li>Todo</li></a><br>
+
+    <!-- <h1>🚀 My Projects</h1> -->
+  <div class="projects-grid">
+
+    <!-- 1. Cosmic Chroma -->
+    <div class="project-card">
+      <img
+        src="/assets/cosmic-chroma.png"
+        alt="Screenshot of Cosmic Chroma"
+      />
+      <div class="project-content">
+        <h3>Cosmic Chroma</h3>
+        <p>
+          A self-hosted “write to your future self” site inspired by FutureMe.org—
+          I built this so I could write unlimited letters for free. WIP.
+        </p>
+        <div class="project-links">
+          <a href="https://cosmic-chroma.vercel.app" target="_blank" rel="noopener">
+            Live Demo
+          </a>
+          <a href="https://github.com/purohitprachi72/cosmic-chroma" target="_blank" rel="noopener">
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Hungry Panda -->
+    <div class="project-card">
+      <img
+        src="/assets/hungry-panda.png"
+        alt="Screenshot of Hungry Panda game"
+      />
+      <div class="project-content">
+        <h3>Hungry Panda</h3>
+        <p>
+          An arcade-style browser game built with Phaser.js. Currently optimized for laptop screens.
+        </p>
+        <div class="project-links">
+          <a href="https://prachipurohit.itch.io/hungry-panda" target="_blank" rel="noopener">
+            Play Now
+          </a>
+          <a href="https://github.com/purohitprachi72/laughing-panda" target="_blank" rel="noopener">
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Sensor Data Sampler -->
+    <div class="project-card">
+      <img
+        src="/assets/sensor-data.png"
+        alt="Screenshot of Sensor Data UI"
+      />
+      <div class="project-content">
+        <h3>Sample Sensor Data</h3>
+        <p>
+          A configurable data-logging interface: choose among three sensors,
+          set sampling frequency & duration, then download the results.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/purohitprachi72/bookish-octo-bassoon" target="_blank" rel="noopener">
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. WebSocket/HTTP Arduino Library -->
+    <!-- <div class="project-card">
+      <img
+        src="/assets/lib.png"
+        alt="Screenshot or logo of Arduino library"
+      />
+      <div class="project-content">
+        <h3>WS/HTTP Arduino Library</h3>
+        <p>
+          An Arduino library I built to switch seamlessly between WebSocket
+          and HTTP protocols for IoT projects.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/purohitprachi72/ProtocolHandler_socket_http" target="_blank" rel="noopener">
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
 </Base>

@@ -1,10 +1,19 @@
 ---
-import Base from '../layouts/Base.astro'
-title: 'Home'
+import Base from '../layouts/Base.astro';
+import '../styles/about.css';
+title: 'Home';
 ---
-
 <Base>
-	<!-- <h1>SitaRam!</h1> -->
-	<!-- <a href="/todo"><li>Todo</li></a> -->
-	<h1>Hello, World!</h1><br>
+  <section class="about-me">
+    <div class="about-text">
+      <h1>Hello, World!</h1>
+      <p>Hi, I'm Prachi—a chronically sleepy engineer.</p>
+      <p>I currently work as a Research Assistant at the National Centre for Aerospace Innovation and Research, where I focus on embedded systems programming.</p>
+      <p>When I'm not busy coding or pretending to understand technical papers, I’m usually building random stuff, binging Studio Ghibli movies, trying (and failing) to keep up with my ever-growing book collection, or philosophizing about life (without really getting anywhere).</p>
+      <!-- <p>I also have a casual interest in a lot of things: music (hoping to learn atleast one instrument), history (but only when storified), learning how computers work, sketching, badminton, martial arts etc.</p> -->
+      <p>I very occasionally write, play a bit of chess, and generally try to avoid being a complete adult.</p>
+      <p>Also, I'm tall (or maybe just surrounded by short people ¯\_(ツ)_/¯)</p>
+    </div>
+    <img src="/assets/jag.jpeg" alt="Prachi & Jagan" class="about-image" />
+  </section>
 </Base>
